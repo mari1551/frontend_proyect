@@ -313,7 +313,7 @@ header #img_logo{
     padding-bottom: 50px;
     
 }
-#div_titulo_opiniones{
+#div_titulo_opiniones > h2{
     color:#ffffff;
     font-size:3.5rem;
     font-family: var(--titulo-font)
@@ -522,7 +522,7 @@ footer .container > div{
 
     /* ------- SECTION OPINIONES -----------*/
 
-    #div_titulo_opiniones{
+    #div_titulo_opiniones > h2{
         font-size:4rem;
     }
     #div_area_opiniones{
