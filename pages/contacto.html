@@ -5,5 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
   </head>
-  <body></body>
+  <body>
+    <form class="contac-form">
+      <input
+        type="text"
+        name="name"
+        placeholder="Ingresa tu nombre"
+        title="solo acepta letras"
+        pattern="^[A-Za-zÑñÁá+ÉéÍíÓóÚúÜü\s+]+$"
+        requerid
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Ingresa tu email"
+        title="Email incorrecto"
+        pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15}])$"
+        requerid
+      />
+
+    <textarea
+        name="comments"
+        cols="30"
+        rows="10"
+        placeholder="Dejanos tu comentario..."
+        requerid
+      ></textarea> 
+      <input type="submit" class="btn" value="ENVIAR">
+      <article id="gracias" class="modal">
+        <div class="modal-content">
+      <article class="contact-form-response">
+        <h3>Muchas gracias por comentar!</h3>
+        <img src="..." alt="checkicon">
+      </article>
+        </div>
+      </article>
+    </form>
+  </body>
 </html>
