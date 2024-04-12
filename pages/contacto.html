@@ -24,6 +24,22 @@
         requerid
       />
 
+      <div class="form-control">
+        <select name="country" id="country" class="form-select">
+            <option value="">Pais</option>
+            <option value="AR">Argentina</option>
+            <option value="BO">Bolivia</option>
+            <option value="BR">Brasil</option>
+            <option value="CH">Chile</option>
+            <option value="CO">Colombia</option>
+            <option value="EC">Ecuador</option>
+            <option value="PY">Paraguay</option>
+            <option value="PE">Peru</option>
+            <option value="UY">Uruguay</option>
+            <option value="VE">Venezuela</option>
+        </select>
+    </div>
+
     <textarea
         name="comments"
         cols="30"
@@ -31,6 +47,14 @@
         placeholder="Dejanos tu comentario..."
         requerid
       ></textarea> 
+
+      <div class="form-terms">
+        <div class="recibInfo">
+            <input type="checkbox" id="recibInfo">
+            <label for="recibInfo">Estoy de acuerdo con recibir más información de LGM.</label>
+        </div>
+     </div>
+
       <input type="submit" class="btn" value="ENVIAR">
       <article id="gracias" class="modal">
         <div class="modal-content">
