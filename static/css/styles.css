@@ -297,15 +297,13 @@ header #img_logo {
   color: #000000;
 }
 #titContac {
-  position:absolute;
+  position: absolute;
   padding-top: 1.5em;
   padding-left: 1%;
   margin-bottom: 5em;
   color: #ffffff;
   font-family: var(--titulo-font);
   font-size: 4rem;
- 
-
 }
 .recibInfo {
   color: white;
@@ -523,8 +521,10 @@ footer .container > div {
     justify-content: center;
     align-items: center;
     height: auto;
-    margin-top: 10em;
+    margin-top: 6em;
     padding-left: 1.5em;
+    flex-direction: row;
+    padding-top: 1em;
   }
   .contacto input {
     margin-bottom: 1em;
@@ -537,6 +537,8 @@ footer .container > div {
   #titContac {
     width: 20%;
     line-height: 4rem;
+    position: relative;
+    margin-bottom: 1em;
   }
   .recibInfo {
     font-size: medium;
