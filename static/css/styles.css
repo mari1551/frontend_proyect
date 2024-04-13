@@ -257,46 +257,68 @@ header #img_logo {
   background-image: url(../img/sillaplayera.jpg);
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 90vh;
   box-shadow: inset 0 0 0 2000px rgba(37, 37, 45, 0.5);
   display: flex;
-  align-items: center;
+  align-items: normal;
 }
 .contacto {
-  display: flex;
   justify-content: center;
   align-items: center;
   height: auto;
-  margin-top: 5em;
-  padding: 1.5em;
-  padding-bottom: 5.5em;
+  margin-top: 10em;
+  padding-right: 1em;
+  flex-direction: column;
+  padding-top: 7em;
+  padding-left: 1em;
 }
-.contacto input{
-    background-color:transparent;
-    margin-bottom: 1em;
-    border:1px solid #ececec;
+.contacto input {
+  background-color: transparent;
+  margin-bottom: 1em;
+  border: 1.5px solid #ececec;
 }
-
-.contacto .form-control{
-    background-color:transparent;
+.contacto input::placeholder {
+  color: #000000;
 }
-.contacto .form-select{
-    background-color:transparent;
+.contacto .form-control {
+  background-color: transparent;
+  border-width: 1.5px;
 }
-.contacto textarea{
-    background-color:transparent;
-    margin-top: 1em;
-    border:1px solid #ececec;
+.contacto .form-select {
+  background-color: transparent;
+  border-width: 1.5px;
+}
+.contacto textarea {
+  background-color: transparent;
+  margin-top: 1em;
+  border: 1.5px solid #ececec;
+}
+.contacto textarea::placeholder {
+  color: #000000;
 }
 #titContac {
-  padding-left: 5%;
+  position:absolute;
+  padding-top: 1.5em;
+  padding-left: 1%;
+  margin-bottom: 5em;
   color: #ffffff;
   font-family: var(--titulo-font);
   font-size: 4rem;
-  width: 20%;
-  line-height: 4rem;
+ 
+
+}
+.recibInfo {
+  color: white;
+  font-size: medium;
 }
 
+.button {
+  padding: 0.5em;
+  border-radius: 3%;
+}
+.button:hover {
+  background-color: white;
+}
 /* ----------------------------SECTION REDES SOCIALES ----------------------*/
 
 #section_rs {
@@ -488,14 +510,36 @@ footer .container > div {
     font-size: 3rem;
   }
 
-  /* ----------------------------SECTION CONTACTO ----------------------*/
+  /* ----------------------------SECTION CONTACTO pantalla grande----------------------*/
+  #section_imagen_titulo2 {
+    background-position: center;
+    height: 115vh;
+    display: flex;
+    align-items: center;
+  }
+
   .contacto {
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-    padding-top: 3em;
-    padding-bottom: 10em;
+    margin-top: 10em;
+    padding-left: 1.5em;
+  }
+  .contacto input {
+    margin-bottom: 1em;
+  }
+
+  .contacto textarea {
+    margin-top: 1em;
+  }
+
+  #titContac {
+    width: 20%;
+    line-height: 4rem;
+  }
+  .recibInfo {
+    font-size: medium;
   }
 
   /* --------- SECTION REDES SOCIALES -------*/
