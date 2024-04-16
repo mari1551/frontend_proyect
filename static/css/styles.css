@@ -118,7 +118,7 @@ header #img_logo{
 /************************************ MAIN **************************************/
 
 
-/* ----------------------------SECTION IMAGEN PRINCIPAL ----------------------*/
+/* ----------------------------SECTION 1: IMAGEN PRINCIPAL ----------------------*/
 #section_imagen_titulo{
     width: 100%;
     background-image: url(../img/habitaciongris.png);
@@ -145,8 +145,8 @@ header #img_logo{
     font-size: 4rem;
 }
 
-/* ----------------------------SECTION MENSAJE ----------------------*/
-#section_mensaje{
+/* ----------------------------SECTION  MENSAJE ----------------------*/
+/* #section_mensaje{
     height: min-content;
     background-color: var(--fourth-color);
     padding-top: 10px;
@@ -158,9 +158,9 @@ header #img_logo{
     font-family: var(--normal-font);
     font-size: 50px;
     width: 40%;
-}
+} */
 
-/* ----------------------------SECTION TEXTO DESCRIPCION ----------------------*/
+/* ----------------------------SECTION 2: TEXTO DESCRIPCION ----------------------*/
 #section_descripcion{
     margin-top: 3rem;
     padding-left: 5%;
@@ -188,7 +188,7 @@ header #img_logo{
     font-family: var(--normal-font);
 }
 
-/* ----------------------------SECTION DESTINOS ----------------------*/
+/* ----------------------------SECTION 3: DESTINOS ----------------------*/
 
 #section_destinos{
     height: max-content;
@@ -259,7 +259,7 @@ header #img_logo{
 
 
 
-/* ----------------------------SECTION REDES SOCIALES ----------------------*/
+/* ----------------------------SECTION 4: REDES SOCIALES ----------------------*/
 
 #section_rs{
     background-color: var(--primary-color);
@@ -304,7 +304,7 @@ header #img_logo{
 
 
 
-/* ----------------------------SECTION OPINIONES ----------------------*/
+/* ----------------------------SECTION 5: OPINIONES ----------------------*/
 #section_opiniones{
     background-color: var(--secundary-color);
     padding-left: 5%;
@@ -422,17 +422,18 @@ footer .container > div{
     }
     .menu a:hover{
         background-color: transparent;
+        color:#0d6efd;
     }
 
 
 
-    /* ------- SECTION IMAGEN PRINCIPAL ------*/
+    /* ------- SECTION 1: IMAGEN PRINCIPAL ------*/
     #section_imagen_titulo{
         height: 90vh;
     }
  
 
-    /* --------- SECTION TEXTO DESCRIPCION ---------*/
+    /* --------- SECTION 2: TEXTO DESCRIPCION ---------*/
     #section_descripcion{
         flex-wrap: nowrap;
         background-color: var(--bg-color);
@@ -454,7 +455,7 @@ footer .container > div{
 
 
 
-    /* ----------- SECTION DESTINOS -----------*/
+    /* ----------- SECTION 3: DESTINOS -----------*/
 
     #div_area_destinos{
         justify-content: space-between;
@@ -472,7 +473,7 @@ footer .container > div{
 
 
 
-    /* --------- SECTION REDES SOCIALES -------*/
+    /* --------- SECTION 4: REDES SOCIALES -------*/
 
     #section_rs{
         display: flex;
@@ -515,12 +516,13 @@ footer .container > div{
         display: flex;
         justify-content: space-between;
         width: 80%;
+        max-width: 500px;
     }
 
 
 
 
-    /* ------- SECTION OPINIONES -----------*/
+    /* ------- SECTION 5: OPINIONES -----------*/
 
     #div_titulo_opiniones > h2{
         font-size:4rem;
@@ -529,7 +531,7 @@ footer .container > div{
         justify-content: space-around;    
     }
     .opinion{
-        width: 300px;
+        width: 30%;
         text-align: justify;
         font-size: 1rem;
         line-height: .8rem;
