@@ -52,7 +52,7 @@ p {
   display: none;
 }
 
-/************************************ HEADER **************************************/
+/************************************ HEADER COMUN **************************************/
 header {
   background-color: var(--primary-color);
   width: 100%;
@@ -112,7 +112,53 @@ header #img_logo {
   /* font-family: var(--secundary-font); */
 }
 
-/************************************ MAIN **************************************/
+
+/************************************ FOOTER COMUN **************************************/
+footer {
+    background-color: var(--primary-color);
+    width: 100%;
+    min-height: max-content;
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--normal-font);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+  }
+  
+  footer > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container > div {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--bg-color);
+    width: 100%;
+  }
+  #footer_logo {
+    width: 25%;
+    height: auto;
+  }
+  .menu_footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .menu_footer a {
+    width: 40%;
+    height: 3rem;
+  }
+  
+  .redes {
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-evenly;
+  }
+
+/************************************ PAG. INDEX **************************************/
 
 
 /* ----------------------------SECTION 1: IMAGEN PRINCIPAL ----------------------*/
@@ -252,7 +298,83 @@ header #img_logo {
   object-fit: cover;
 }
 
-/* ----------------------------SECTION CONTACTO ----------------------*/
+
+/* ----------------------------SECTION 4: REDES SOCIALES ----------------------*/
+
+#section_rs {
+    background-color: var(--primary-color);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--bg-color);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: max-content;
+  }
+  
+  .fotos_rs {
+    display: none;
+    width: 100%;
+  }
+  
+  .texto_rs {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .texto_rs #titulo_rs {
+    font-size: 3.5rem;
+    font-family: var(--secundary-font);
+    margin-bottom: 2rem;
+  }
+  .texto_rs #texto_rs {
+    font-size: 1.5rem;
+    font-family: var(--secundary-font);
+    margin-bottom: 2rem;
+  }
+  .texto_rs #logo_rs {
+    font-size: 1.5rem;
+    font-family: var(--secundary-font);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* ----------------------------SECTION 5: OPINIONES ----------------------*/
+  #section_opiniones {
+    background-color: var(--secundary-color);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #div_titulo_opiniones > h2 {
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-family: var(--titulo-font);
+  }
+  #div_area_opiniones {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--bg-color);
+    justify-content: center;
+    margin-top: 50px;
+    font-family: var(--normal-font);
+  }
+  .opinion {
+    margin-bottom: 1rem;
+    border: 1px dotted var(--bg-color);
+    padding: 5px;
+    width: 90%;
+    font-size: 1rem;
+    line-height: 0.8rem;
+  }
+
+
+/* ****************************** PAG. CONTACTO *************************** */  
+
+/* ---------------------------SECTION CONTACTO -------------------*/
 #section_imagen_titulo2 {
   width: 100%;
   background-image: url(../img/sillaplayera.jpg);
@@ -312,345 +434,7 @@ header #img_logo {
 }
 
 
-/* ----------------------------SECTION 4: REDES SOCIALES ----------------------*/
-
-#section_rs {
-  background-color: var(--primary-color);
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  color: var(--bg-color);
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: max-content;
-}
-
-.fotos_rs {
-  display: none;
-  width: 100%;
-}
-
-.texto_rs {
-  padding: 1rem;
-  width: 100%;
-  text-align: center;
-}
-.texto_rs #titulo_rs {
-  font-size: 3.5rem;
-  font-family: var(--secundary-font);
-  margin-bottom: 2rem;
-}
-.texto_rs #texto_rs {
-  font-size: 1.5rem;
-  font-family: var(--secundary-font);
-  margin-bottom: 2rem;
-}
-.texto_rs #logo_rs {
-  font-size: 1.5rem;
-  font-family: var(--secundary-font);
-  display: flex;
-  justify-content: space-between;
-}
-
-/* ----------------------------SECTION OPINIONES ----------------------*/
-#section_opiniones {
-  background-color: var(--secundary-color);
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-#div_titulo_opiniones > h2 {
-  color: #ffffff;
-  font-size: 3.5rem;
-  font-family: var(--titulo-font);
-}
-#div_area_opiniones {
-  display: flex;
-  flex-wrap: wrap;
-  color: var(--bg-color);
-  justify-content: center;
-  margin-top: 50px;
-  font-family: var(--normal-font);
-}
-.opinion {
-  margin-bottom: 1rem;
-  border: 1px dotted var(--bg-color);
-  padding: 5px;
-  width: 90%;
-  font-size: 1rem;
-  line-height: 0.8rem;
-}
-
-/************************************ FOOTER **************************************/
-footer {
-  background-color: var(--primary-color);
-  width: 100%;
-  min-height: max-content;
-  color: #ffffff;
-  text-align: center;
-  font-family: var(--normal-font);
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: 0 auto;
-}
-
-footer > .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-footer .container > div {
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  border-bottom: 1px solid var(--bg-color);
-  width: 100%;
-}
-#footer_logo {
-  width: 25%;
-  height: auto;
-}
-.menu_footer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.menu_footer a {
-  width: 40%;
-  height: 3rem;
-}
-
-.redes {
-  display: flex;
-  font-size: 1.6rem;
-  justify-content: space-evenly;
-}
-
-/************************************ MEDIA QUERIES **************************************/
-@media screen and (min-width: 768px) {
-  /* tablet */
-}
-@media screen and (min-width: 1024px) {
-  /* PC, laptop */
-
-  /* ---------HEADER ------- */
-  .header {
-    position: fixed;
-    padding: 0.5rem;
-    height: calc(var(--header-height) - 0.5rem);
-  }
-
-  /* --------- MENU -------- */
-  .menu_btn {
-    display: none;
-  }
-  .menu {
-    position: static;
-    opacity: 1;
-    pointer-events: auto;
-    width: auto;
-    flex-direction: row;
-    background-color: transparent;
-  }
-  .menu a {
-    padding: 0 1rem;
-  }
-  .menu a:last-child {
-    padding-right: 0;
-  }
-  .menu a:hover {
-    background-color: transparent;
-  }
-
-  /* ------- SECTION IMAGEN PRINCIPAL ------*/
-  #section_imagen_titulo {
-    height: 90vh;
-  }
-
-  /* --------- SECTION TEXTO DESCRIPCION ---------*/
-  #section_descripcion {
-    flex-wrap: nowrap;
-    background-color: var(--bg-color);
-  }
-  #div_titulo_descripcion {
-    width: 40%;
-  }
-  #div_titulo_descripcion > h2 {
-    font-size: 4rem;
-  }
-  #div_texto_descripcion {
-    width: 60%;
-  }
-  #div_texto_descripcion > p {
-    line-height: 1.8rem;
-    color: var(--secundary-color);
-  }
-
-  /* ----------- SECTION DESTINOS -----------*/
-
-  #div_area_destinos {
-    justify-content: space-between;
-  }
-  .destino {
-    height: 15rem;
-    width: 30%;
-  }
-  .nombre_destino > h2 {
-    font-weight: 550;
-    font-size: 3rem;
-  }
-
-  /* ----------------------------SECTION CONTACTO pantalla grande----------------------*/
-  #section_imagen_titulo2 {
-    background-position: center;
-    height: 115vh;
-    display: flex;
-    align-items: center;
-  }
-
-  .contacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    margin-top: 6em;
-    padding-left: 1.5em;
-    flex-direction: row;
-    padding-top: 1em;
-  }
-  .contacto input {
-    margin-bottom: 1em;
-  }
-
-  .contacto textarea {
-    margin-top: 1em;
-  }
-
-  #titContac {
-    width: 20%;
-    line-height: 4rem;
-    position: relative;
-    margin-bottom: 1em;
-  }
-  .recibInfo {
-    font-size: medium;
-  }
-
-  /* --------- SECTION REDES SOCIALES -------*/
-
-  #section_rs {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-  }
-
-  .fotos_rs {
-    display: inline-block;
-    width: 50%;
-  }
-  .fotos_rs img {
-    height: 430px;
-    width: 100%;
-  }
-
-  .texto_rs {
-    width: 50%;
-    padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .texto_rs #titulo_rs {
-    font-size: 2.5rem;
-    font-family: var(--secundary-font);
-    margin-bottom: 1rem;
-    width: 100%;
-  }
-  .texto_rs #texto_rs {
-    font-size: 1.3rem;
-    font-family: var(--secundary-font);
-    margin-bottom: 1rem;
-    width: 100%;
-  }
-  .texto_rs #logo_rs {
-    font-size: 1.5rem;
-    font-family: var(--secundary-font);
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-  }
-
-  /* ------- SECTION OPINIONES -----------*/
-
-
-
-/* ----------------------------SECTION 5: OPINIONES ----------------------*/
-#section_opiniones{
-    background-color: var(--secundary-color);
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
-}
-#div_titulo_opiniones > h2{
-    color:#ffffff;
-    font-size:3.5rem;
-    font-family: var(--titulo-font)
-}
-#div_area_opiniones{
-    display:flex;
-    flex-wrap: wrap;
-    color:var(--bg-color);
-    justify-content: center;
-    margin-top: 50px;
-    font-family: var(--normal-font);
-   
-}
-.opinion{
-    margin-bottom:1rem;
-    border: 1px dotted var(--bg-color);
-    padding: 5px;
-    width: 90%;
-    font-size: 1rem;
-    line-height: 0.8rem;
-  }
-
-  /* --------FOOTER ------- */
-  footer > .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 0.1rem solid var(--bg-color);
-    padding-top: 1rem;
-  }
-  footer .container > div {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    width: 30%;
-    border: 0;
-  }
-  #footer_logo {
-    width: 40%;
-    height: auto;
-  }
-  footer .menu_footer {
-    border-left: 0.1rem solid var(--bg-color);
-    border-right: 0.1rem solid var(--bg-color);
-  }
-}
-
-.redes{
-    display: flex;
-    font-size: 1.6rem;
-    justify-content: space-evenly;
-}
-
-
+ 
 /************************************ MEDIA QUERIES **************************************/
 @media screen and (min-width: 768px){
 
@@ -661,14 +445,16 @@ footer .container > div {
     
     /* PC, laptop */
 
-    /* ---------HEADER ------- */
+    /* ------------------ HEADER - NAVEGACION COMUN TODAS LAS PAG -------------------*/
+
+    /* --------- HEADER (pantallas grandes)------- */
     .header{
         position: fixed;
         padding: 0.5rem;
         height: calc(var(--header-height) - 0.5rem);
     }
 
-    /* --------- MENU -------- */
+    /* --------- MENU (pantallas grandes) -------- */
     .menu_btn{
         display: none;
     }
@@ -692,14 +478,40 @@ footer .container > div {
     }
 
 
+     /* --------------------- FOOTER COMUN TODAS LAS PAG. --------------------*/
 
-    /* ------- SECTION 1: IMAGEN PRINCIPAL ------*/
+    /* --------FOOTER (pantallas grandes) ------- */
+    footer > .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 0.1rem solid var(--bg-color);
+        padding-top: 1rem;
+    }
+    footer .container > div{
+        margin-bottom: 1rem;
+        padding: 0.5rem;    
+        width: 30%;
+        border: 0;
+    }
+    #footer_logo{
+        width: 40%;
+        height: auto;
+    }
+    footer .menu_footer{
+        border-left: 0.1rem solid var(--bg-color);
+        border-right: 0.1rem solid var(--bg-color);
+    }
+
+    /* --------------------- ******* PAG. INDEX  ******* ---------------------*/
+
+    /* ------- SECTION 1: IMAGEN PRINCIPAL (pantallas grandes) ------*/
     #section_imagen_titulo{
         height: 90vh;
     }
  
 
-    /* --------- SECTION 2: TEXTO DESCRIPCION ---------*/
+    /* --------- SECTION 2: TEXTO DESCRIPCION (pantallas grandes) ---------*/
     #section_descripcion{
         flex-wrap: nowrap;
         background-color: var(--bg-color);
@@ -719,9 +531,7 @@ footer .container > div {
     }
 
 
-
-
-    /* ----------- SECTION 3: DESTINOS -----------*/
+    /* ----------- SECTION 3: DESTINOS (pantallas grandes) -----------*/
 
     #div_area_destinos{
         justify-content: space-between;
@@ -736,10 +546,7 @@ footer .container > div {
     }
 
 
-
-
-
-    /* --------- SECTION 4: REDES SOCIALES -------*/
+    /* --------- SECTION 4: REDES SOCIALES (pantallas grandes) -------*/
 
     #section_rs{
         display: flex;
@@ -786,9 +593,7 @@ footer .container > div {
     }
 
 
-
-
-    /* ------- SECTION 5: OPINIONES -----------*/
+    /* ------- SECTION 5: OPINIONES (pantallas grandes) -----------*/
 
     #div_titulo_opiniones > h2{
         font-size:4rem;
@@ -805,32 +610,42 @@ footer .container > div {
 
 
 
+    /* --------------------- ******* PAG. CONTACTO  ******* ---------------------*/
 
-
-
-
-
-    /* --------FOOTER ------- */
-    footer > .container{
+    /* --------------------SECTION CONTACTO (pantalla grande) ------------*/
+    #section_imagen_titulo2 {
+        background-position: center;
+        height: 115vh;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        border-bottom: 0.1rem solid var(--bg-color);
-        padding-top: 1rem;
     }
-    footer .container > div{
-        margin-bottom: 1rem;
-        padding: 0.5rem;    
-        width: 30%;
-        border: 0;
-    }
-    #footer_logo{
-        width: 40%;
+
+    .contacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: auto;
+        margin-top: 6em;
+        padding-left: 1.5em;
+        flex-direction: row;
+        padding-top: 1em;
     }
-    footer .menu_footer{
-        border-left: 0.1rem solid var(--bg-color);
-        border-right: 0.1rem solid var(--bg-color);
+    .contacto input {
+        margin-bottom: 1em;
+    }
+
+    .contacto textarea {
+        margin-top: 1em;
+    }
+
+    #titContac {
+        width: 20%;
+        line-height: 4rem;
+        position: relative;
+        margin-bottom: 1em;
+    }
+    .recibInfo {
+        font-size: medium;
     }
            
 }
