@@ -276,24 +276,24 @@ header #img_logo {
 .contacto input {
   background-color: transparent;
   margin-bottom: 1em;
-  border: 2px solid#3a3939;
+  border: 2px solid white;
 }
 .contacto input::placeholder {
   color:white;
 }
 .contacto .form-control {
   background-color: transparent;
-  border: 2px solid#3a3939;
+  border: 2px solid white;
 }
 .contacto .form-select {
   background-color: transparent;
-  border: 1.5px solid #3a3939;
+  border: 1.5px solid white;
   color: white; 
 }
 .contacto textarea {
   background-color: transparent;
   margin-top: 1em;
-  border: 2px solid #3a3939;
+  border: 2px solid white;
 }
 .contacto textarea::placeholder {
   color: white;
@@ -324,7 +324,7 @@ input.button {
   border: 2px solid white;
 }
 .button:hover {
-  background-color: #3a3939;
+  background-color: grey;
 }
 
 /* Actividades */
