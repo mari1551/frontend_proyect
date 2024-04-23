@@ -258,7 +258,7 @@ header #img_logo {
   background-size: cover;
   background-position: center;
   height: auto;
-  box-shadow: inset 0 0 0 2000px rgba(37, 37, 45, 0.5);
+  box-shadow: inset 0 0 0 2000px rgba(2, 2, 2, 0.5);
   display: flex;
   align-items: normal;
 }
@@ -271,55 +271,72 @@ header #img_logo {
   flex-direction: column;
   padding-top: 7em;
   padding-left: 1em;
+
 }
 .contacto input {
   background-color: transparent;
   margin-bottom: 1em;
-  border: 1.5px solid #ececec;
+  border: 2px solid#3a3939;
 }
 .contacto input::placeholder {
-  color: #000000;
+  color:white;
 }
 .contacto .form-control {
   background-color: transparent;
-  border-width: 1.5px;
+  border: 2px solid#3a3939;
 }
 .contacto .form-select {
   background-color: transparent;
-  border-width: 1.5px;
+  border: 1.5px solid #3a3939;
+  color: white; 
 }
 .contacto textarea {
   background-color: transparent;
   margin-top: 1em;
-  border: 1.5px solid #ececec;
+  border: 2px solid #3a3939;
 }
 .contacto textarea::placeholder {
-  color: #000000;
+  color: white;
 }
 
 #titContac {
   position: absolute;
-  padding-top: 1.5em;
+  padding-top: 2em;
   padding-left: 1%;
-
-  color: #ffffff;
   font-family: var(--titulo-font);
-  font-size: 4rem;
-object-fit: cover;
+  font-size: 3rem;
+  font-weight: 300;
+  object-fit: cover;
+  color:white; 
 }
 
 .recibInfo {
-  color: white;
   font-size: medium;
+  font-weight: 500;
+  color: white;
 }
 
-.button {
-  padding: 0.5em;
+input.button {
+  margin:0.5em;
+  padding:0.5em;
   border-radius: 3%;
+  color:white; 
+  border: 2px solid white;
 }
 .button:hover {
-  background-color: white;
+  background-color: #3a3939;
 }
+
+/* Actividades */
+#titulo-actividades {
+  color: #000000;
+  padding-top: 1.5em;
+  text-align: center;
+  font-family: var(--titulo-font);
+  font-size: 4em;
+  font-weight: 600;
+}
+
 /* ----------------------------SECTION REDES SOCIALES ----------------------*/
 
 #section_rs {
@@ -538,13 +555,19 @@ footer .container > div {
   }
 
   #titContac {
-    width: 20%;
-    line-height: 4rem;
     position: relative;
     margin-bottom: 1em;
+    font-size: 4.3rem;
+    padding-left: 0.3em;
+    font-weight: 600;
   }
   .recibInfo {
     font-size: medium;
+  }
+
+  /* Actividades */
+  #titulo-actividades {
+    font-size: 5.5em;
   }
 
   /* --------- SECTION REDES SOCIALES -------*/
