@@ -380,7 +380,7 @@ footer {
   background-image: url(../img/sillaplayera.jpg);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: auto;
   box-shadow: inset 0 0 0 2000px rgba(37, 37, 45, 0.5);
   display: flex;
   align-items: normal;
@@ -419,15 +419,18 @@ footer {
 .contacto textarea::placeholder {
   color: #000000;
 }
+
 #titContac {
   position: absolute;
   padding-top: 1.5em;
   padding-left: 1%;
-  margin-bottom: 5em;
+
   color: #ffffff;
   font-family: var(--titulo-font);
   font-size: 4rem;
+object-fit: cover;
 }
+
 .recibInfo {
   color: white;
   font-size: medium;
