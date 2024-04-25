@@ -59,153 +59,154 @@
         <nav class="menu">
           <a href="../index.html">Home</a>
           <a href="#">Destinos</a>
-          <a href="#">Actividades</a>
-          <a href="#">Contacto</a>
+          <a href="./actividades.html">Actividades</a>
+          <a href="./contacto.html">Contacto</a>
         </nav>
       </section>
     </header>
 
     <!-- *************************************** CUERPO PRINCIPAL MAIN ***************************************-->
     <main>
-    <section id="section_imagen_titulo2">
+      <section id="section_imagen_titulo2">
+        <div class="tituloCon">
+          <h3 id="titContac">Querés conocer más? <br />Contactános!</h3>
+        </div>
+        <!-- Formulario de Contacto -->
 
-<div class="tituloCon">
-      <h3 id="titContac">Querés conocer más? <br>Contactános!</h3>
-    </div>
-    <!-- Formulario de Contacto -->
-  
-      <section class="contacto">
-        <form class="contac-form">
-          <input
-            type="text"
-            name="name"
-            placeholder="Ingresa tu nombre"
-            title="solo acepta letras"
-            pattern="^[A-Za-zÑñÁá+ÉéÍíÓóÚúÜü\s+]+$"
-            requerid
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Ingresa tu email"
-            title="Email incorrecto"
-            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15}])$"
-            requerid
-          />
+        <section class="contacto">
+          <form class="contac-form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Ingresa tu nombre"
+              title="solo acepta letras"
+              pattern="^[A-Za-zÑñÁá+ÉéÍíÓóÚúÜü\s+]+$"
+              requerid
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Ingresa tu email"
+              title="Email incorrecto"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15}])$"
+              requerid
+            />
 
-          <div class="form-control">
-            <select name="country" id="country" class="form-select">
-              <option value="">Pais</option>
-              <option value="AL">Alemania</option>
-              <option value="AR">Argentina</option>
-              <option value="AU">Australia</option>
-              <option value="BE">Belgica</option>
-              <option value="BO">Bolivia</option>
-              <option value="BR">Brasil</option>
-              <option value="CA">Canadá</option>
-              <option value="CH">Chile</option>
-              <option value="CN">China</option>
-              <option value="CO">Colombia</option>
-              <option value="KR">Corea</option>
-              <option value="CR">Costa Rica</option>
-              <option value="EC">Ecuador</option>
-              <option value="EG">Egipto</option>
-              <option value="ES">España</option>
-              <option value="US">Estados Unidos</option>
-              <option value="FR">Francia</option>
-              <option value="GR">Grecia</option>
-              <option value="HA">Haiti</option>
-              <option value="HR">Honduras</option>
-              <option value="HU">Hungria</option>
-              <option value="IN">India</option>
-              <option value="IT">Italia</option>
-              <option value="JA">Japon</option>
-              <option value="LU">Luxemburgo</option>
-              <option value="PY">Paraguay</option>
-              <option value="PE">Peru</option>
-              <option value="UY">Uruguay</option>
-              <option value="VE">Venezuela</option>
-            </select>
-          </div>
-
-          <div class="form-control">
-            <select name="tema" id="tema" class="form-select">
-              <option value="">Tema</option>
-              <option value="A">Actividades</option>
-              <option value="D">Destinos</option>
-              <option value="Al">Tipo de Alojamiento</option>
-              <option value="O">Otras consultas</option>
-            </select>
+            <div class="form-control">
+              <select name="country" id="country" class="form-select">
+                <option value="">Pais</option>
+                <option value="AL">Alemania</option>
+                <option value="AR">Argentina</option>
+                <option value="AU">Australia</option>
+                <option value="BE">Belgica</option>
+                <option value="BO">Bolivia</option>
+                <option value="BR">Brasil</option>
+                <option value="CA">Canadá</option>
+                <option value="CH">Chile</option>
+                <option value="CN">China</option>
+                <option value="CO">Colombia</option>
+                <option value="KR">Corea</option>
+                <option value="CR">Costa Rica</option>
+                <option value="EC">Ecuador</option>
+                <option value="EG">Egipto</option>
+                <option value="ES">España</option>
+                <option value="US">Estados Unidos</option>
+                <option value="FR">Francia</option>
+                <option value="GR">Grecia</option>
+                <option value="HA">Haiti</option>
+                <option value="HR">Honduras</option>
+                <option value="HU">Hungria</option>
+                <option value="IN">India</option>
+                <option value="IT">Italia</option>
+                <option value="JA">Japon</option>
+                <option value="LU">Luxemburgo</option>
+                <option value="PY">Paraguay</option>
+                <option value="PE">Peru</option>
+                <option value="UY">Uruguay</option>
+                <option value="VE">Venezuela</option>
+              </select>
             </div>
 
-          <textarea
-            name="comments"
-            cols="30"
-            rows="10"
-            placeholder="Dejanos tu comentario..."
-            requerid
-          ></textarea>
-
-          <div class="form-terms">
-            <div class="recibInfo">
-              <input type="checkbox" id="recibInfo" />
-              <label for="recibInfo"
-                >Estoy de acuerdo con recibir más información de LGM.</label
-              >
+            <div class="form-control">
+              <select name="tema" id="tema" class="form-select">
+                <option value="">Tema</option>
+                <option value="A">Actividades</option>
+                <option value="D">Destinos</option>
+                <option value="Al">Tipo de Alojamiento</option>
+                <option value="O">Otras consultas</option>
+              </select>
             </div>
-          </div>
 
-          <input type="submit" class="button" value="ENVIAR" />
+            <textarea
+              name="comments"
+              cols="30"
+              rows="10"
+              placeholder="Dejanos tu comentario..."
+              requerid
+            ></textarea>
 
-          <article id="gracias" class="modal">
-            <div class="modal-content">
-              <article class="contact-form-response">
-                <h3>Muchas gracias por comentar!</h3>
-                <img src="..." alt="checkicon" />
-              </article>
+            <div class="form-terms">
+              <div class="recibInfo">
+                <input type="checkbox" id="recibInfo" />
+                <label for="recibInfo"
+                  >Estoy de acuerdo con recibir más información de LGM.</label
+                >
+              </div>
             </div>
-          </article>
 
-        </form>
+            <input type="submit" class="button" value="ENVIAR" />
 
+            <article id="gracias" class="modal">
+              <div class="modal-content">
+                <article class="contact-form-response">
+                  <h3>Muchas gracias por comentar!</h3>
+                  <img src="..." alt="checkicon" />
+                </article>
+              </div>
+            </article>
+          </form>
+        </section>
       </section>
-    </section>
     </main>
 
+    <!--*************************************** FOOTER ***************************************-->
+    <footer>
+      <section class="container">
+        <!-- logo -->
+        <div class="logo">
+          <a href="#"
+            ><img id="footer_logo" src="../static/img/logo.jpg" alt="Logo"
+          /></a>
+        </div>
+        <!-- enlaces a otras paginas de interes -->
+        <div class="menu_footer">
+          <a href="#">NEWS</a>
+          <a href="./contacto.html">CONTACT US</a>
+          <a href="#">TRAVEL</a>
+          <a href="#">ADVISORS</a>
+          <a href="#">ACCESSIBILITY</a>
+          <a href="#">SITEMAP</a>
+        </div>
+        <!-- area de redes sociales  -->
+        <div class="redes">
+          <a href="#"><i class="fa-brands fa-instagram"></i> </a>
+          <a href="#"><i class="fa-brands fa-facebook"></i> </a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i> </a>
+          <a href="#"><i class="fa-brands fa-youtube"></i> </a>
+        </div>
+      </section>
+      <div>
+        <p>Copyright ©2024 LGM Hotels International, Inc.</p>
+      </div>
+    </footer>
 
- <!--*************************************** FOOTER ***************************************-->
-<footer>
-  <section class="container">
-    <!-- logo -->
-    <div class="logo">
-      <a href="#"><img id="footer_logo" src="../static/img/logo.jpg" alt="Logo"></a>
-    </div>
-    <!-- enlaces a otras paginas de interes -->
-    <div class="menu_footer">
-      <a href="#">NEWS</a>
-      <a href="./contacto.html">CONTACT US</a>
-      <a href="#">TRAVEL</a>
-      <a href="#">ADVISORS</a>
-      <a href="#">ACCESSIBILITY</a>
-      <a href="#">SITEMAP</a>
-    </div>
-    <!-- area de redes sociales  -->
-    <div class="redes">
-      <a href="#"><i class="fa-brands fa-instagram"></i> </a>
-      <a href="#"><i class="fa-brands fa-facebook"></i> </a>
-      <a href="#"><i class="fa-brands fa-x-twitter"></i> </a>
-      <a href="#"><i class="fa-brands fa-youtube"></i> </a>      
-    </div>
-
-  </section>
-  <div>
-    <p>Copyright ©2024 LGM Hotels International, Inc.</p>
-  </div>      
-</footer>
-
-     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <!-- Archivo JavaScript -->
     <script src="./static/js/js.js"></script>
-</body>
+  </body>
 </html>
