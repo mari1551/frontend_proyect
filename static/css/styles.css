@@ -52,7 +52,7 @@ p {
   display: none;
 }
 
-/************************************ HEADER COMUN **************************************/
+/************************************ HEADER COMUN TODAS PAG**************************************/
 header {
   background-color: var(--primary-color);
   width: 100%;
@@ -71,7 +71,7 @@ header > .container {
 header #img_logo {
   height: 3.5rem;
 }
-/* --------------- MENU --------------*/
+/* --------------- MENU COMUN TODAS PAG--------------*/
 .menu_btn {
   background-color: transparent;
   border: 0;
@@ -113,7 +113,7 @@ header #img_logo {
 }
 
 
-/************************************ FOOTER COMUN **************************************/
+/************************************ FOOTER COMUN TODAS PAG**************************************/
 footer {
     background-color: var(--primary-color);
     width: 100%;
@@ -158,10 +158,11 @@ footer {
     justify-content: space-evenly;
   }
 
-/************************************ PAG. INDEX **************************************/
+
+/************************************ PAG. INDEX (MOBILE)**************************************/
 
 
-/* ----------------------------SECTION 1: IMAGEN PRINCIPAL ----------------------*/
+/* ----------------------------SECTION 1: IMAGEN PRINCIPAL (MOBILE)----------------------*/
 #section_imagen_titulo{
     width: 100%;
     background-image: url(../img/habitaciongris.png);
@@ -188,22 +189,7 @@ footer {
   font-size: 4rem;
 }
 
-/* ----------------------------SECTION  MENSAJE ----------------------*/
-/* #section_mensaje{
-    height: min-content;
-    background-color: var(--fourth-color);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-}
-
-#section_mensaje > p{
-    font-family: var(--normal-font);
-    font-size: 50px;
-    width: 40%;
-} */
-
-/* ----------------------------SECTION 2: TEXTO DESCRIPCION ----------------------*/
+/* ----------------------------SECTION 2: TEXTO DESCRIPCION (MOBILE)----------------------*/
 #section_descripcion{
     margin-top: 3rem;
     padding-left: 5%;
@@ -230,7 +216,7 @@ footer {
   font-family: var(--normal-font);
 }
 
-/* ----------------------------SECTION 3: DESTINOS ----------------------*/
+/* ----------------------------SECTION 3: DESTINOS (MOBILE)----------------------*/
 
 #section_destinos {
   height: max-content;
@@ -299,7 +285,7 @@ footer {
 }
 
 
-/* ----------------------------SECTION 4: REDES SOCIALES ----------------------*/
+/* ----------------------------SECTION 4: REDES SOCIALES (MOBILE)----------------------*/
 
 #section_rs {
     background-color: var(--primary-color);
@@ -326,6 +312,7 @@ footer {
   }
   .texto_rs #titulo_rs {
     font-size: 3.5rem;
+    line-height: 3rem;
     font-family: var(--secundary-font);
     margin-bottom: 2rem;
   }
@@ -341,7 +328,7 @@ footer {
     justify-content: space-between;
   }
   
-  /* ----------------------------SECTION 5: OPINIONES ----------------------*/
+  /* ----------------------------SECTION 5: OPINIONES (MOBILE)----------------------*/
   #section_opiniones {
     background-color: var(--secundary-color);
     padding-left: 5%;
@@ -374,7 +361,6 @@ footer {
 
 /* ****************************** PAG. CONTACTO *************************** */  
 
-/* ---------------------------SECTION CONTACTO -------------------*/
 #section_imagen_titulo2 {
   width: 100%;
   background-image: url(../img/sillaplayera.jpg);
@@ -383,22 +369,7 @@ footer {
   height: auto;
   box-shadow: inset 0 0 0 2000px rgba(2, 2, 2, 0.5);
   display: flex;
-  flex-wrap: wrap;
   align-items: normal;
-}
-.tituloCon{
-  height: min-content;
-  width: 100%;
-}
-#titContac {
-  position: absolute;
-  padding-top: 1.5em;
-  padding-left: 1%;
-
-  color: #ffffff;
-  font-family: var(--titulo-font);
-  font-size: 4rem;
-  object-fit: cover;
 }
 
 .contacto {
@@ -466,6 +437,7 @@ input.button {
   background-color: grey;
 }
 
+/* ****************************** PAG. ACTIVIDADES *************************** */  
 /* Actividades */
 #titulo-actividades {
   color: #000000;
@@ -476,122 +448,6 @@ input.button {
   font-weight: 600;
 }
 
-/* ----------------------------SECTION REDES SOCIALES ----------------------*/
-
-#section_rs {
-  background-color: var(--primary-color);
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  color: var(--bg-color);
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: max-content;
-}
-
-.fotos_rs {
-  display: none;
-  width: 100%;
-}
-
-.texto_rs {
-  padding: 1rem;
-  width: 100%;
-  text-align: center;
-}
-.texto_rs #titulo_rs {
-  font-size: 3.5rem;
-  font-family: var(--secundary-font);
-  margin-bottom: 2rem;
-}
-.texto_rs #texto_rs {
-  font-size: 1.5rem;
-  font-family: var(--secundary-font);
-  margin-bottom: 2rem;
-}
-.texto_rs #logo_rs {
-  font-size: 1.5rem;
-  font-family: var(--secundary-font);
-  display: flex;
-  justify-content: space-between;
-}
-
-/* ----------------------------SECTION OPINIONES ----------------------*/
-#section_opiniones {
-  background-color: var(--secundary-color);
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-#div_titulo_opiniones > h2 {
-  color: #ffffff;
-  font-size: 3.5rem;
-  font-family: var(--titulo-font);
-}
-#div_area_opiniones {
-  display: flex;
-  flex-wrap: wrap;
-  color: var(--bg-color);
-  justify-content: center;
-  margin-top: 50px;
-  font-family: var(--normal-font);
-}
-.opinion {
-  margin-bottom: 1rem;
-  border: 1px dotted var(--bg-color);
-  padding: 5px;
-  width: 90%;
-  font-size: 1rem;
-  line-height: 0.8rem;
-}
-
-/************************************ FOOTER **************************************/
-footer {
-  background-color: var(--primary-color);
-  width: 100%;
-  min-height: max-content;
-  color: #ffffff;
-  text-align: center;
-  font-family: var(--normal-font);
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: 0 auto;
-}
-
-footer > .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-footer .container > div {
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  border-bottom: 1px solid var(--bg-color);
-  width: 100%;
-}
-#footer_logo {
-  width: 25%;
-  height: auto;
-}
-.menu_footer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.menu_footer a {
-  width: 40%;
-  height: 3rem;
-}
-
-.redes {
-  display: flex;
-  font-size: 1.6rem;
-  justify-content: space-evenly;
-}
 
  
 /************************************ MEDIA QUERIES **************************************/
@@ -604,223 +460,200 @@ footer .container > div {
     
     /* PC, laptop */
 
-    /* ------------------ HEADER - NAVEGACION COMUN TODAS LAS PAG -------------------*/
-
     /* --------- HEADER (pantallas grandes)------- */
     .header{
-        position: fixed;
-        padding: 0.5rem;
-        height: calc(var(--header-height) - 0.5rem);
+      position: fixed;
+      padding: 0.5rem;
+      height: calc(var(--header-height) - 0.5rem);
     }
 
     /* --------- MENU (pantallas grandes) -------- */
     .menu_btn{
-        display: none;
+      display: none;
     }
     .menu{
-        position:static;
-        opacity: 1;
-        pointer-events: auto;
-        width:auto;
-        flex-direction: row;
-        background-color: transparent;
+      position:static;
+      opacity: 1;
+      pointer-events: auto;
+      width:auto;
+      flex-direction: row;
+      background-color: transparent;
     }
     .menu a{
-        padding: 0 1rem;
+      padding: 0 1rem;
     }
     .menu a:last-child{
-        padding-right: 0;
+      padding-right: 0;
     }
     .menu a:hover{
-        background-color: transparent;
-        color:#0d6efd;
+      background-color: transparent;
+      color:#0d6efd;
     }
-
-
-     /* --------------------- FOOTER COMUN TODAS LAS PAG. --------------------*/
 
     /* --------FOOTER (pantallas grandes) ------- */
     footer > .container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 0.1rem solid var(--bg-color);
-        padding-top: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 0.1rem solid var(--bg-color);
+      padding-top: 1rem;
     }
     footer .container > div{
-        margin-bottom: 1rem;
-        padding: 0.5rem;    
-        width: 30%;
-        border: 0;
+      margin-bottom: 1rem;
+      padding: 0.5rem;    
+      width: 30%;
+      border: 0;
     }
     #footer_logo{
-        width: 40%;
-        height: auto;
+      width: 40%;
+      height: auto;
     }
     footer .menu_footer{
-        border-left: 0.1rem solid var(--bg-color);
-        border-right: 0.1rem solid var(--bg-color);
+      border-left: 0.1rem solid var(--bg-color);
+      border-right: 0.1rem solid var(--bg-color);
     }
 
-    /* --------------------- ******* PAG. INDEX  ******* ---------------------*/
+    /* --------------------- ******* PAG. INDEX (pantallas grandes) ******* ---------------------*/
 
     /* ------- SECTION 1: IMAGEN PRINCIPAL (pantallas grandes) ------*/
     #section_imagen_titulo{
-        height: 90vh;
+      height: 90vh;
     }
  
 
     /* --------- SECTION 2: TEXTO DESCRIPCION (pantallas grandes) ---------*/
     #section_descripcion{
-        flex-wrap: nowrap;
-        background-color: var(--bg-color);
+      flex-wrap: nowrap;
+      background-color: var(--bg-color);
     }
     #div_titulo_descripcion{
-        width: 40%;   
+      width: 40%;   
     }
     #div_titulo_descripcion > h2{
-        font-size: 4rem;
+      font-size: 4rem;
     }
     #div_texto_descripcion{
-        width:60%;
+      width:60%;
     }
     #div_texto_descripcion > p{
-        line-height: 1.8rem;
-        color:var(--secundary-color);
+      line-height: 1.8rem;
+      color:var(--secundary-color);
     }
 
-  #titContac {
-    position: relative;
-    margin-bottom: 1em;
-    font-size: 4.3rem;
-    padding-left: 0.3em;
-    font-weight: 600;
-  }
-  .recibInfo {
-    font-size: medium;
-  }
-
-  /* Actividades */
-  #titulo-actividades {
-    font-size: 5.5em;
-  }
-
-  /* --------- SECTION REDES SOCIALES -------*/
+    /* --------- SECTION 3: DESTINOS (pantallas grandes) -------*/
 
     #div_area_destinos{
-        justify-content: space-between;
+      justify-content: space-between;
     } 
     .destino{
-        height: 15rem;
-        width: 30%;
+      height: 15rem;
+      width: 30%;
     }
     .nombre_destino > h2{
-        font-weight: 550;
-        font-size: 3rem;
+      font-weight: 550;
+      font-size: 3rem;
     }
-
 
     /* --------- SECTION 4: REDES SOCIALES (pantallas grandes) -------*/
 
     #section_rs{
-        display: flex;
-        flex-wrap: wrap;
-        padding:0;
+      display: flex;
+      flex-wrap: wrap;
+      padding:0;
     }
-
     .fotos_rs{
-        display:inline-block;
-        width: 50%;
+      display:inline-block;
+      width: 50%;
     }
     .fotos_rs img{
-        height: 430px;
-        width: 100%;
-   }
-
+      height: 430px;
+      width: 100%;
+    }
     .texto_rs{
-        width: 50%;
-        padding: 2rem;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+      width: 50%;
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
     }
     .texto_rs #titulo_rs{
-        font-size: 2.5rem;
-        font-family: var(--secundary-font);
-        margin-bottom: 1rem;
-        width: 100%;
+      font-size: 2.5rem;
+      font-family: var(--secundary-font);
+      margin-bottom: 1rem;
+      width: 100%;
     }
     .texto_rs #texto_rs{
-        font-size: 1.3rem;
-        font-family: var(--secundary-font);
-        margin-bottom: 1rem;
-        width: 100%;
+      font-size: 1.3rem;
+      font-family: var(--secundary-font);
+      margin-bottom: 1rem;
+      width: 100%;
     }
     .texto_rs #logo_rs{
-        font-size: 1.5rem;
-        font-family: var(--secundary-font);
-        display: flex;
-        justify-content: space-between;
-        width: 80%;
-        max-width: 500px;
+      font-size: 1.5rem;
+      font-family: var(--secundary-font);
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      max-width: 500px;
     }
 
-
     /* ------- SECTION 5: OPINIONES (pantallas grandes) -----------*/
-
     #div_titulo_opiniones > h2{
-        font-size:4rem;
+      font-size:4rem;
     }
     #div_area_opiniones{
         justify-content: space-around;    
     }
     .opinion{
-        width: 30%;
-        text-align: justify;
-        font-size: 1rem;
-        line-height: .8rem;
+      width: 30%;
+      text-align: justify;
+      font-size: 1rem;
+      line-height: .8rem;
     }
 
+  /* ------------- ******* PAG. CONTACTO  (pantalla grande) ******* ----------*/
 
-
-    /* --------------------- ******* PAG. CONTACTO  ******* ---------------------*/
-
-    /* --------------------SECTION CONTACTO (pantalla grande) ------------*/
     #section_imagen_titulo2 {
-        background-position: center;
-        height: 115vh;
-        display: flex;
-        align-items: center;
+      background-position: center;
+      height: 115vh;
+      display: flex;
+      align-items: center;
     }
 
     .contacto {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-        margin-top: 6em;
-        padding-left: 1.5em;
-        flex-direction: row;
-        padding-top: 1em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      margin-top: 6em;
+      padding-left: 1.5em;
+      flex-direction: row;
+      padding-top: 1em;
     }
     .contacto input {
-        margin-bottom: 1em;
+      margin-bottom: 1em;
     }
 
     .contacto textarea {
-        margin-top: 1em;
+      margin-top: 1em;
     }
 
     #titContac {
-        width: 20%;
-        line-height: 4rem;
-        position: relative;
-        margin-bottom: 1em;
+      position: relative;
+      margin-bottom: 1em;
+      font-size: 4.3rem;
+      padding-left: 0.3em;
+      font-weight: 600;
     }
     .recibInfo {
-        font-size: medium;
+      font-size: medium;
+    } 
+     
+    /* ------------- ******* PAG. ACTIVIDADES  (pantalla grande) ******* ----------*/
+    /* Actividades */
+    #titulo-actividades {
+      font-size: 5.5em;
     }
-           
 }
 
