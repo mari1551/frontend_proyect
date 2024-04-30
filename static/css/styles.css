@@ -112,6 +112,50 @@ header #img_logo {
   /* font-family: var(--secundary-font); */
 }
 
+/* opciones extras menu destinos */
+.dropdown{
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--secundary-color); /* Color de fondo del menú desplegable */
+  width: inherit;
+  /* min-width: 160px; */
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: var(--bg-color); /* Color de texto del menú desplegable */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--bg-color-hover); /* Color de fondo al pasar el cursor sobre una opción */
+}
+
+@media screen and (min-width: 1024px){
+  .dropdown{
+    height: auto;
+    padding: 0;
+  }
+  .dropdown-content{
+    width: 200px;
+  }
+  .dropdown-content a:last-child{
+    padding: 0px !important;
+  }
+}
+
+
 
 /************************************ FOOTER COMUN TODAS PAG**************************************/
 footer {
