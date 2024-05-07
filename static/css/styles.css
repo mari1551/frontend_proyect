@@ -415,7 +415,6 @@ footer {
   display: flex;
   align-items: normal;
 }
-
 .contacto {
   justify-content: center;
   align-items: center;
@@ -451,7 +450,6 @@ footer {
 .contacto textarea::placeholder {
   color: white;
 }
-
 #titContac {
   position: absolute;
   padding-top: 2em;
@@ -462,13 +460,11 @@ footer {
   object-fit: cover;
   color:white; 
 }
-
 .recibInfo {
   font-size: medium;
   font-weight: 500;
   color: white;
 }
-
 input.button {
   margin:0.5em;
   padding:0.5em;
@@ -491,6 +487,62 @@ input.button {
   font-weight: 600;
 }
 
+/* ****************************** PAG. DESTINOS (MOBILE) *************************** */  
+/* ----Section 1: imagen principal ---- */
+#section_destinos_imagen_principal{
+  width: 100%;
+  background-image: url(../img/chicamapa.jpg);
+  background-size:cover;
+  background-position: right;
+  height: 70vh;
+  box-shadow: inset 0 0 0 2000px rgba(37, 37, 45, 0.5);
+}
+/* ----Section 2: texto descripcion ---- */
+#section_destinos_descripcion{  
+  margin:0 auto;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+#titulo_destinos{
+  color: var(--primary-color);
+  font-family: var(--titulo-font);
+  font-size: 4rem; 
+  text-align: center;
+}
+#div_destinos_descripcion_texto{
+  line-height: 1.5rem;
+  color: var(--third-color);
+  font-family: var(--normal-font); 
+}
+/* ----Section 3: tarjetas destinos ---- */
+#section_tarjetas{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--fourth-color);
+}
+.tarjeta_destino{
+  width: 90%;
+  -webkit-box-shadow:2px 1px 10px 0 rgba(0,0,0,.2);
+  box-shadow:2px 1px 10px 0 rgba(0,0,0,.2);
+  margin:0 auto;
+  margin-bottom: 1.5rem;
+  background-color: var(--bg-color);
+}
+.imagen_tarjeta_destino > img{
+  width: 100%;
+  height: 100%;
+}
+.texto_tarjeta_destino{
+  padding: 10px;
+}
+.texto_tarjeta_destino h2{
+  font-family: var(--titulo-font);
+  font-size: 3.5rem; 
+}
+.texto_tarjeta_destino p{
+  color:var(--secundary-color);
+}
 
  
 /************************************ MEDIA QUERIES **************************************/
@@ -697,6 +749,17 @@ input.button {
     /* Actividades */
     #titulo-actividades {
       font-size: 5.5em;
+    }
+
+    /* ****************************** PAG. DESTINOS (pantallas grandes) *************************** */  
+    .tarjeta_destino{
+      display: flex;
+    }
+    .imagen_tarjeta_destino{
+      width: 50%;
+    }
+    .texto_tarjeta_destino{
+      width: 50%;
     }
 }
 
