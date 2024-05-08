@@ -209,7 +209,7 @@ footer {
 /* ----------------------------SECTION 1: IMAGEN PRINCIPAL (MOBILE)----------------------*/
 #section_imagen_titulo{
     width: 100%;
-    background-image: url(../img/habitaciongris.png);
+    background-image: url(../img/habitaciongris.jpg);
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -751,7 +751,7 @@ input.button {
       font-size: 5.5em;
     }
 
-    /* ****************************** PAG. DESTINOS (pantallas grandes) *************************** */  
+    /* ************* PAG. DESTINOS (pantallas grandes) **************** */  
     .tarjeta_destino{
       display: flex;
     }
