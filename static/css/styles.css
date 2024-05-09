@@ -486,7 +486,16 @@ input.button {
   font-size: 4em;
   font-weight: 600;
 }
-
+.Actividades{
+  background-color:  var(--fifth-color);
+}
+.Actividades button{
+  padding:0.2em;
+  border-radius: 10%;
+}
+.Actividades a{
+  color: #000000;
+}
 /* ****************************** PAG. DESTINOS (MOBILE) *************************** */  
 /* ----Section 1: imagen principal ---- */
 #section_destinos_imagen_principal{
