@@ -74,26 +74,27 @@
         <!-- Formulario de Contacto -->
 
         <section class="contacto">
-          <form class="contac-form">
+          <div id="registroForm">
+          <form class="contac-form" id="formulario" novalidate>
+
             <input
               type="text"
-              name="name"
+              id="nombre"
+              name="nombre" minlength="3"
               placeholder="Ingresa tu nombre"
-              title="solo acepta letras"
-              pattern="^[A-Za-zÑñÁá+ÉéÍíÓóÚúÜü\s+]+$"
-              requerid
-            />
+              requerid>
+              <div class="error" id="errorNombre"></div>
+
             <input
               type="email"
+              id="email"
               name="email"
               placeholder="Ingresa tu email"
-              title="Email incorrecto"
-              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15}])$"
-              requerid
-            />
+              requerid>
+              <div class="error" id="errorEmail"></div>
 
             <div class="form-control">
-              <select name="country" id="country" class="form-select">
+              <select name="country" id="country" class="form-select" required>
                 <option value="">Pais</option>
                 <option value="AL">Alemania</option>
                 <option value="AR">Argentina</option>
@@ -125,16 +126,18 @@
                 <option value="UY">Uruguay</option>
                 <option value="VE">Venezuela</option>
               </select>
+              <div class="error" id="errorCountry"></div>
             </div>
 
             <div class="form-control">
-              <select name="tema" id="tema" class="form-select">
+              <select name="tema" id="tema" class="form-select" required>
                 <option value="">Tema</option>
-                <option value="A">Actividades</option>
-                <option value="D">Destinos</option>
-                <option value="Al">Tipo de Alojamiento</option>
-                <option value="O">Otras consultas</option>
+                <option value="Actividades">Actividades</option>
+                <option value="Destinos">Destinos</option>
+                <option value="Alojamientos">Tipo de Alojamiento</option>
+                <option value="Otro">Otras consultas</option>
               </select>
+              <div class="error" id="errorTema"></div>
             </div>
 
             <textarea
@@ -154,6 +157,12 @@
               </div>
             </div>
 
+            <label class="inline">
+              <input type="checkbox" id="aceptoTerminos" name="aceptoTerminos" required>
+              Acepto términos y condiciones
+          </label>
+          <div class="error" id="errorAceptoTerminos"></div>
+
             <input type="submit" class="button" value="ENVIAR" />
 
             <article id="gracias" class="modal">
@@ -165,6 +174,7 @@
               </div>
             </article>
           </form>
+          </div>
         </section>
       </section>
     </main>
@@ -208,5 +218,6 @@
     ></script>
     <!-- Archivo JavaScript -->
     <script src="../static/js/js.js"></script>
+    <script src="../static/js/validateForm.js"></script>
   </body>
 </html>
