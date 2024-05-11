@@ -109,7 +109,6 @@ header #img_logo {
 .menu a:hover {
   color: var(--secundary-color);
   background-color: var(--bg-color);
-  /* font-family: var(--secundary-font); */
 }
 
 /* opciones extras menu destinos */
@@ -203,18 +202,20 @@ footer .container > div {
   font-size: 1.6rem;
   justify-content: space-evenly;
 }
+#footer_detalles p{
+  margin-bottom: 0;
+}
 
 /************************************ PAG. INDEX (MOBILE)**************************************/
 
 /* ----------------------------SECTION 1: IMAGEN PRINCIPAL (MOBILE)----------------------*/
 #section_imagen_titulo {
   width: 100%;
-  background-image: url(../img/habitaciongris.jpg);
+  background-image: url(../img/habitaciongrislarga.webp);
   background-size: cover;
   background-position: center;
   height: 70vh;
   box-shadow: inset 0 0 0 2000px rgba(37, 37, 45, 0.5);
-
   display: flex;
   align-items: center;
 }
@@ -225,12 +226,7 @@ footer .container > div {
   font-size: 4rem;
   width: 75%;
   line-height: 4rem;
-}
-#linea2 {
-  padding-left: 5%;
-  color: #ffffff;
-  font-family: var(--secundary-font);
-  font-size: 4rem;
+  font-weight: normal;
 }
 
 /* ----------------------------SECTION 2: TEXTO DESCRIPCION (MOBILE)----------------------*/
@@ -238,6 +234,7 @@ footer .container > div {
   margin-top: 3rem;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 5%;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -249,6 +246,7 @@ footer .container > div {
 }
 #div_titulo_descripcion > h2 {
   font-size: 3rem;
+  font-weight: normal;
 }
 #div_texto_descripcion {
   width: 100%;
@@ -261,7 +259,6 @@ footer .container > div {
 }
 
 /* ----------------------------SECTION 3: DESTINOS (MOBILE)----------------------*/
-
 #section_destinos {
   height: max-content;
   background-color: var(--fourth-color);
@@ -269,20 +266,17 @@ footer .container > div {
   padding-bottom: 2rem;
   margin: 0 auto;
 }
-
 #div_titulo_destinos {
   text-align: center;
   width: 100%;
   font-family: var(--titulo-font);
 }
 #div_titulo_destinos > h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-weight: 500;
 }
-
 #div_area_destinos {
   margin-top: 1rem;
-  /* margin: 0 auto; */
-  /* width: 90%; */
   height: max-content;
   padding-left: 5%;
   padding-right: 5%;
@@ -291,7 +285,6 @@ footer .container > div {
   align-items: center;
   justify-content: center;
 }
-
 .destino {
   height: 17rem;
   width: 75%;
@@ -301,26 +294,23 @@ footer .container > div {
 .nombre_destino {
   z-index: 99;
   position: absolute;
-  /* width: 60%; */
   height: max-content;
   top: 5%;
   left: 5%;
-  /* transform: translate(-50%,-50%); */
   background-color: rgba(240, 234, 234, 0.5);
   color: var(--primary-color);
   font-family: var(--titulo-font);
+  border-radius: 5%;
 }
 .nombre_destino > h2 {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 3.5rem;
   margin-bottom: 0;
 }
-
 .imagen_destino {
   width: 100%;
   height: 100%;
 }
-
 .imagen_destino > img {
   height: 100%;
   width: 100%;
@@ -329,7 +319,6 @@ footer .container > div {
 }
 
 /* ----------------------------SECTION 4: REDES SOCIALES (MOBILE)----------------------*/
-
 #section_rs {
   background-color: var(--primary-color);
   padding-left: 5%;
@@ -342,12 +331,10 @@ footer .container > div {
   width: 100%;
   height: max-content;
 }
-
 .fotos_rs {
   display: none;
   width: 100%;
 }
-
 .texto_rs {
   padding: 1rem;
   width: 100%;
@@ -383,6 +370,7 @@ footer .container > div {
   color: #ffffff;
   font-size: 3.5rem;
   font-family: var(--titulo-font);
+  font-weight: normal;
 }
 #div_area_opiniones {
   display: flex;
@@ -402,7 +390,6 @@ footer .container > div {
 }
 
 /* ****************************** PAG. CONTACTO *************************** */
-
 #section_imagen_titulo2 {
   width: 100%;
   background-image: url(../img/sillaplayera.jpg);
@@ -502,7 +489,7 @@ input.button {
 /* ----Section 1: imagen principal ---- */
 #section_destinos_imagen_principal {
   width: 100%;
-  background-image: url(../img/chicamapa.jpg);
+  background-image: url(../img/chicamapalarga.webp);
   background-size: cover;
   background-position: right;
   height: 70vh;
@@ -512,6 +499,8 @@ input.button {
 #section_destinos_descripcion {
   margin: 0 auto;
   margin-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
   width: 100%;
   text-align: center;
 }
@@ -520,6 +509,7 @@ input.button {
   font-family: var(--titulo-font);
   font-size: 4rem;
   text-align: center;
+  font-weight: normal;
 }
 #div_destinos_descripcion_texto {
   line-height: 1.5rem;
@@ -531,33 +521,168 @@ input.button {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: var(--fourth-color);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .tarjeta_destino {
   width: 90%;
   -webkit-box-shadow: 2px 1px 10px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 2px 1px 10px 0 rgba(0, 0, 0, 0.2);
-  margin: 0 auto;
+  box-shadow: 2px 1px 10px 0 rgba(0, 0, 0, 0.2);  
   margin-bottom: 1.5rem;
   background-color: var(--bg-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.imagen_tarjeta_destino > img {
+.imagen_tarjeta_destino{
+  width:100%;
+}
+.imagen_tarjeta_destino img {
   width: 100%;
   height: 100%;
 }
 .texto_tarjeta_destino {
   padding: 10px;
+  width:100%;
 }
 .texto_tarjeta_destino h2 {
   font-family: var(--titulo-font);
   font-size: 3.5rem;
+  font-weight: normal;
 }
 .texto_tarjeta_destino p {
   color: var(--secundary-color);
+}
+.texto_tarjeta_destino a {
+  color: var(--secundary-color);
+  background-color: var(--fifth-color);
+  border-radius: 5%;
+}
+.iframe_destino{
+  display:none;
 }
 
 /************************************ MEDIA QUERIES **************************************/
 @media screen and (min-width: 768px) {
   /* tablet */
+
+  /* ----------- FOOTER (tablet) ------- */
+  footer{
+    padding-top: 15px;
+  }
+  #div_footer_logo{
+    width:40%;
+    height: 200px;
+  }
+  #div_footer_menu{
+    width:60%;
+    height: 200px;
+    align-items: center;
+  }
+  #footer_logo {
+    width: 60%;
+    height: 100%;
+  }
+  .menu_footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* ---------- INDEX (tablet)------------------ */
+  /* --section imagen principal (tablet) -- */
+  #section_imagen_titulo {
+    height: 70vh;
+    background-image: url(../img/habitaciongrismedia.webp);
+  }
+
+  /* -- section redes sociales (tablet) -- */
+  #section_rs {
+    padding: 0;
+  } 
+  .fotos_rs {
+    display:flex;
+    width: 45%;
+    height: 100%;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .fotos_rs > img{
+    width: 100%;
+    height: 100%;
+  }
+  .texto_rs {
+    padding: 2%;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .texto_rs #titulo_rs {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 1%;
+  }
+  .texto_rs #texto_rs {
+    font-size: 1.5rem;
+    margin-bottom: 4%;
+  }
+  .texto_rs #logo_rs {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 500px;
+  }
+
+  /* -----*** PAG. DESTINOS (tablet) ***---- */
+  /* ----Section 1: imagen principal ---- */
+  #section_destinos_imagen_principal {
+    background-image: url(../img/chicamapamedia.webp);
+  }
+  /* ----Section 2: texto descripcion ---- */
+  #section_destinos_descripcion {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* ----Section 3: tarjetas destinos ---- */
+  .tarjeta_destino {
+    width: 90%;
+    display: flex;
+  }
+  .imagen_tarjeta_destino{
+    width:50%;
+    height: 30vw;
+  }
+  .imagen_tarjeta_destino img {
+    width: 100%;
+    height: 100%;
+  }
+  .texto_tarjeta_destino {
+    padding: 10px;
+    width: 100%;
+  }
+  .texto_tarjeta_destino h2 {
+    font-size: 3rem;
+  }
+  .texto_tarjeta_destino p {
+    font-size: 2.5vh;
+  }
+  .iframe_destino{
+    width:50%;
+    /* padding: 10px; */
+    height: 30vw;
+    display: block;
+  }
+  .iframe_destino iframe{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
 }
 @media screen and (min-width: 1024px) {
   /* PC, laptop */
@@ -600,7 +725,7 @@ input.button {
     border-bottom: 0.1rem solid var(--bg-color);
     padding-top: 1rem;
   }
-  footer .container > div {
+  #div_footer_logo, #div_footer_menu, #div_footer_rs {
     margin-bottom: 1rem;
     padding: 0.5rem;
     width: 30%;
@@ -620,6 +745,7 @@ input.button {
   /* ------- SECTION 1: IMAGEN PRINCIPAL (pantallas grandes) ------*/
   #section_imagen_titulo {
     height: 90vh;
+    background-image: url(../img/habitaciongris.webp);
   }
 
   /* --------- SECTION 2: TEXTO DESCRIPCION (pantallas grandes) ---------*/
@@ -656,47 +782,30 @@ input.button {
   }
 
   /* --------- SECTION 4: REDES SOCIALES (pantallas grandes) -------*/
-
-  #section_rs {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-  }
   .fotos_rs {
-    display: inline-block;
     width: 50%;
   }
   .fotos_rs img {
     height: 430px;
-    width: 100%;
   }
   .texto_rs {
     width: 50%;
     padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
   }
   .texto_rs #titulo_rs {
-    font-size: 2.5rem;
-    font-family: var(--secundary-font);
+    font-size: 2rem;
     margin-bottom: 1rem;
     width: 100%;
   }
   .texto_rs #texto_rs {
-    font-size: 1.3rem;
-    font-family: var(--secundary-font);
+    font-size: 1.5rem;
     margin-bottom: 1rem;
-    width: 100%;
+    line-height: 2.5rem;
+    width: 80%;
   }
   .texto_rs #logo_rs {
     font-size: 1.5rem;
-    font-family: var(--secundary-font);
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    max-width: 500px;
+    width:80%;
   }
 
   /* ------- SECTION 5: OPINIONES (pantallas grandes) -----------*/
@@ -758,13 +867,7 @@ input.button {
   }
 
   /* ************* PAG. DESTINOS (pantallas grandes) **************** */
-  .tarjeta_destino {
-    display: flex;
-  }
-  .imagen_tarjeta_destino {
-    width: 50%;
-  }
-  .texto_tarjeta_destino {
-    width: 50%;
+  #section_destinos_imagen_principal {
+    background-image: url(../img/chicamapa.jpg);
   }
 }
