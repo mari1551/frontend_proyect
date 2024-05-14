@@ -530,7 +530,7 @@ input.button {
 }
 .imagen_tarjeta_destino img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 8/5;
 }
 .texto_tarjeta_destino {
   padding: 10px;
@@ -550,7 +550,14 @@ input.button {
   border-radius: 5%;
 }
 .iframe_destino{
-  display:none;
+  /* display:none; */
+    width: 100%;
+    padding: 0;
+}
+.iframe_destino iframe{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
 }
 
 /************************************ MEDIA QUERIES **************************************/
