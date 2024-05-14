@@ -9,7 +9,6 @@
   --normal-font: "Roboto", sans-serif;
   --secundary-font: "Nunito", sans-serif;
   --titulo-font: "Licorice", cursive;
-
   --max-width: 1200px;
   --header-height: 5rem;
 }
@@ -38,11 +37,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 p {
   line-height: 1.6rem;
 }
-
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -67,7 +64,6 @@ header > .container {
   justify-content: space-between;
   align-items: center;
 }
-
 header #img_logo {
   height: 3.5rem;
 }
@@ -80,7 +76,6 @@ header #img_logo {
   width: 36px;
   height: 36px;
 }
-
 .menu {
   position: fixed;
   left: 0;
@@ -105,13 +100,13 @@ header #img_logo {
   text-decoration: none;
   color: var(--bg-color);
 }
-
 .menu a:hover {
   color: var(--secundary-color);
   background-color: var(--bg-color);
 }
 
 /* opciones extras menu destinos */
+/*
 .dropdown {
   width: 100%;
   text-align: center;
@@ -122,27 +117,23 @@ header #img_logo {
   position: absolute;
   background-color: var(
     --secundary-color
-  ); /* Color de fondo del menú desplegable */
+  );
   width: inherit;
-  /* min-width: 160px; */
   z-index: 1;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .dropdown-content a {
-  color: var(--bg-color); /* Color de texto del menú desplegable */
+  color: var(--bg-color); 
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {
   background-color: var(
     --bg-color-hover
-  ); /* Color de fondo al pasar el cursor sobre una opción */
+  ); 
 }
 
 @media screen and (min-width: 1024px) {
@@ -156,7 +147,7 @@ header #img_logo {
   .dropdown-content a:last-child {
     padding: 0px !important;
   }
-}
+} */
 
 /************************************ FOOTER COMUN TODAS PAG**************************************/
 footer {
@@ -170,7 +161,6 @@ footer {
   padding-right: 1rem;
   margin: 0 auto;
 }
-
 footer > .container {
   display: flex;
   flex-wrap: wrap;
@@ -196,7 +186,6 @@ footer .container > div {
   width: 40%;
   height: 3rem;
 }
-
 .redes {
   display: flex;
   font-size: 1.6rem;
@@ -208,7 +197,7 @@ footer .container > div {
 
 /************************************ PAG. INDEX (MOBILE)**************************************/
 
-/* ----------------------------SECTION 1: IMAGEN PRINCIPAL (MOBILE)----------------------*/
+/* --------------------SECTION 1: IMAGEN PRINCIPAL (MOBILE)--------------*/
 #section_imagen_titulo {
   width: 100%;
   background-image: url(../img/habitaciongrislarga.webp);
@@ -229,7 +218,7 @@ footer .container > div {
   font-weight: normal;
 }
 
-/* ----------------------------SECTION 2: TEXTO DESCRIPCION (MOBILE)----------------------*/
+/* -----------------SECTION 2: TEXTO DESCRIPCION (MOBILE)-----------------*/
 #section_descripcion {
   margin-top: 3rem;
   padding-left: 5%;
@@ -258,7 +247,7 @@ footer .container > div {
   font-family: var(--normal-font);
 }
 
-/* ----------------------------SECTION 3: DESTINOS (MOBILE)----------------------*/
+/* -------------------SECTION 3: DESTINOS (MOBILE)-------------------*/
 #section_destinos {
   height: max-content;
   background-color: var(--fourth-color);
@@ -318,7 +307,7 @@ footer .container > div {
   object-fit: cover;
 }
 
-/* ----------------------------SECTION 4: REDES SOCIALES (MOBILE)----------------------*/
+/* -------------------SECTION 4: REDES SOCIALES (MOBILE)------------------*/
 #section_rs {
   background-color: var(--primary-color);
   padding-left: 5%;
@@ -358,7 +347,7 @@ footer .container > div {
   justify-content: space-between;
 }
 
-/* ----------------------------SECTION 5: OPINIONES (MOBILE)----------------------*/
+/* ------------------------SECTION 5: OPINIONES (MOBILE)-------------------*/
 #section_opiniones {
   background-color: var(--secundary-color);
   padding-left: 5%;
@@ -467,7 +456,6 @@ input.button {
   color:rgb(121, 28, 28);
 }
 /* ****************************** PAG. ACTIVIDADES *************************** */
-/* Actividades */
 #titulo-actividades {
   color: #000000;
   padding-top: 1.5em;
@@ -639,7 +627,7 @@ input.button {
     max-width: 500px;
   }
 
-  /* -----*** PAG. DESTINOS (tablet) ***---- */
+  /* ------------- PAG. DESTINOS (tablet) ------------ */
   /* ----Section 1: imagen principal ---- */
   #section_destinos_imagen_principal {
     background-image: url(../img/chicamapamedia.webp);
@@ -683,8 +671,8 @@ input.button {
     height: 100%;
     padding: 0;
   }
-
 }
+
 @media screen and (min-width: 1024px) {
   /* PC, laptop */
 
