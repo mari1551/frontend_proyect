@@ -474,6 +474,7 @@ input.button {
 .Actividades a {
   color: #000000;
 }
+
 /* ****************************** PAG. DESTINOS (MOBILE) *************************** */
 /* ----Section 1: imagen principal ---- */
 #section_destinos_imagen_principal {
@@ -863,6 +864,15 @@ input.button {
   #titulo-actividades {
     font-size: 5.5em;
   }
+  .Actividades{
+    padding-left: 1em;
+  }
+.card{
+  height: 480px;
+}
+.excursiones article{
+  box-shadow: #20252d;
+}
 
   /* ************* PAG. DESTINOS (pantallas grandes) **************** */
   #section_destinos_imagen_principal {
