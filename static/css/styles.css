@@ -466,13 +466,31 @@ input.button {
 }
 .Actividades {
   background-color: var(--fifth-color);
+  width: 100%;
 }
-.Actividades button {
+.excursiones{
+  width: 100%;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;  
+}
+.gridExcursiones{
+  width: 90%;
+}
+.row{
+  width: 100%;
+}
+.card{
+  height: 100%;
+}
+.Actividades a{
   padding: 0.2em;
   border-radius: 10%;
-}
-.Actividades a {
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: #000000;
+  background-color: #dbdbdb;
+  border: 1px solid black;
 }
 
 /* ****************************** PAG. DESTINOS (MOBILE) *************************** */
@@ -865,14 +883,16 @@ input.button {
     font-size: 5.5em;
   }
   .Actividades{
-    padding-left: 1em;
+    /* padding-left: 1em; */
   }
-.card{
-  height: 480px;
-}
-.excursiones article{
-  box-shadow: #20252d;
-}
+  .card{
+    /* height: 480px; */
+    height: 100%;
+  }
+
+  .excursiones article{
+    box-shadow: #20252d;
+  }
 
   /* ************* PAG. DESTINOS (pantallas grandes) **************** */
   #section_destinos_imagen_principal {

@@ -1,0 +1,183 @@
+
+
+
+
+<div id="carouselExample" class="carousel carousel-dark slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <!-- inicia sistema de grilla de BS -->
+        <section class="row">              
+          <article class="col-sm-12 col-md-6 col-lg-3 mb-2">
+            <div class="card">
+              <img src="../static/img/submarinoAruba950x696.webp" alt="foto submarino en Aruba">
+              <div class="card-body">
+                <h2 class="card-title">Submarino Atlantis</h2>
+                <p class="card-text">en Aruba</p>
+                <p class="card-text">Desde $151.000</p>
+                <button>
+                  <a href="#">Ver Producto</a>
+                </button>
+              </div>
+            </div>
+          </article>
+          <!-- card I -->
+          <article class="col-sm-12 col-md-6 col-lg-3 mb-2">
+            <div class="card">
+              <img src="../static/img/tourPuntaCana950x696.webp" alt="foto tour punta cana">
+              <div class="card-body">
+                <h2 class="card-title">Tour Isla Saona con translado y almuerzo</h2>
+                <p class="card-text">En Punta Cana</p>
+                <p class="card-text">Desde $120.000</p>
+                <button>
+                  <a href="">Ver Producto</a>
+                </button>
+              </div>
+            </div>
+          </article>
+          <!-- card II -->
+          <article class="col-sm-12 col-md-6 col-lg-3 mb-2">
+            <div class="card">
+              <img
+                src="../static/img/recorridoCanarias950x696.webp"
+                alt="foto recorrido Canarias">
+              <div class="card-body">
+                <h2 class="card-title">Autobús Turístico Las Palmas de Gran Canaria</h2>
+                <p class="card-text">En Palmas de Gran Canaria</p>
+                <p class="card-text">Desde $55.000</p>
+                <button>
+                  <a href="">Ver Producto</a>
+                </button>
+              </div>
+            </div>
+          </article>
+          <!-- card III -->
+          <article class="col-sm-12 col-md-6 col-lg-3 mb-2">
+            <div class="card">
+              <img src="../static/img/nadoDelfinesPUntaCana.webp" alt="foto nado delfines punta Cana">
+              <div class="card-body">
+                <h2 class="card-title"> Encuentro y nado con delfines en piscina</h2>
+                <p class="card-text">En Punta Cana</p>
+                <p class="card-text">Desde $135.000</p>
+                <button>
+                  <a href="">Ver Producto</a>
+                </button>
+              </div>
+            </div>
+          </article>
+          <!-- card IV -->
+
+          <article class="col-sm-12 col-md-6 col-lg-3 mb-2">
+            <div class="card">
+              <img src="../static/img/aventuraBoogiesPuntaCana.webp" alt="Foto Aventura Boogies Punta Cana">
+              <div class="card-body">
+                <h2 class="card-title">Aventura Boogies Punta Cana</h2>
+                <p class="card-text">En Punta Cana</p>
+                <p class="card-text">Desde $74.000</p>
+                <button>
+                  <a href="">Ver Producto</a>
+                </button>
+              </div>
+            </div>
+          </article>
+
+              <!-- card I -->
+          <article class="col-sm-12 col-md-6 col-lg-3 mb-2">
+            <div class="card">
+              <img src="../static/img/ArubaIsladePalm.webp" alt="foto Isla De Palm Aruba">
+              <div class="card-body">
+                <h2 class="card-title">Isla De Palm Aruba</h2>
+                <p class="card-text">En Aruba</p>
+                <p class="card-text">Desde $200.000</p>
+                <button>
+                  <a href="">Ver Producto</a>
+                </button>
+              </div>
+            </div>
+          </article>
+
+
+            <!-- card II -->
+          <article class="col-sm-12 col-md-6 col-lg-3 mb-2">
+            <div class="card">
+              <img src="../static/img/safariAruba.webp" alt="foto Safari todo terreno Aruba">
+              <div class="card-body">
+                <h2 class="card-title">Safari todo terreno en playa para bebés</h2>
+                <p class="card-text">En Aruba</p>
+                <p class="card-text">Desde $210.000</p>
+                <button>
+                  <a href="">Ver Producto</a>
+                </button>
+              </div>
+            </div>
+          </article>
+          <!-- card III -->
+       </section>
+      </div>
+      </div>
+ 
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+<div class="carousel-item">
+            <section class="row">
+              <article class="col-sm-12 col-md-6 col-lg-3 mb-2">
+                <div class="card">
+                  <img src="../static/img/aventuraBoogiesPuntaCana.webp" alt="Foto Aventura Boogies Punta Cana">
+                  <div class="card-body">
+                    <h2 class="card-title">Aventura Boogies Punta Cana</h2>
+                    <p class="card-text">En Punta Cana</p>
+                    <p class="card-text">Desde $74.000</p>
+                    <button>
+                      <a href="">Ver Producto</a>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <!-- card I -->
+              <article class="col-sm-12 col-md-6 col-lg-3 mb-2">
+                <div class="card">
+                  <img src="../static/img/ArubaIsladePalm.webp" alt="foto Isla De Palm Aruba">
+                  <div class="card-body">
+                    <h2 class="card-title">Isla De Palm Aruba</h2>
+                    <p class="card-text">En Aruba</p>
+                    <p class="card-text">Desde $200.000</p>
+                    <button>
+                      <a href="">Ver Producto</a>
+                    </button>
+                  </div>
+                </div>
+              </article>
+            <!-- card II -->
+            <article class="col-sm-12 col-md-6 col-lg-3 mb-2">
+              <div class="card">
+                <img src="../static/img/safariAruba.webp" alt="foto Safari todo terreno Aruba">
+                <div class="card-body">
+                  <h2 class="card-title">Safari todo terreno en playa para bebés</h2>
+                  <p class="card-text">En Aruba</p>
+                  <p class="card-text">Desde $210.000</p>
+                  <button>
+                    <a href="">Ver Producto</a>
+                  </button>
+                </div>
+              </div>
+            </article>
+              <!-- card III -->
