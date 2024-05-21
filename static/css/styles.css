@@ -390,6 +390,7 @@ footer .container > div {
   align-items: normal;
 }
 .contacto {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: auto;
@@ -399,6 +400,7 @@ footer .container > div {
   padding-top: 7em;
   padding-left: 1em;
 }
+
 .contacto input {
   background-color: transparent;
   margin-bottom: 1em;
@@ -407,10 +409,10 @@ footer .container > div {
 .contacto input::placeholder {
   color: white;
 }
-.contacto .form-control {
+.contacto .form-control, .form-input {
   background-color: transparent;
   border: 2px solid white;
-  width: 70%;
+  width: 100%;
 }
 .contacto .form-select {
   background-color: transparent;
@@ -549,7 +551,7 @@ input.button {
 }
 .imagen_tarjeta_destino img {
   width: 100%;
-  aspect-ratio: 8/5;
+  /* aspect-ratio: 8/5; */
 }
 .texto_tarjeta_destino {
   padding: 10px;
@@ -889,7 +891,9 @@ input.button {
     /* height: 480px; */
     height: 100%;
   }
-
+  .card-title{
+    font-size: 23px;
+  }
   .excursiones article{
     box-shadow: #20252d;
   }
